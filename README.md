@@ -1,13 +1,5 @@
 # Herb-marker
 
-This work utilizes the **Toolbox**, a publicly available repository that encapsulates a variety of functions for network-based analyses. Within this framework, several customized Python scripts and class modules were employed to analyze transcription factor–target (TF–T) and protein–protein interaction (PPI) data sets in cancer research.  
-
-- **`TFT.py`** — Defines a Python class for processing and managing TF–gene network data, including data loading, network construction, and feature extraction.  
-- **`PPI.py`** — Defines a Python class for handling PPI network data, supporting interaction parsing, network representation, and topological analysis.  
-- **`cal_cancer_score_TFT_sim.py`** and **`cal_cancer_score_PPI_sim.py`** — Calculate cancer-related scores based on **similarity metrics**, quantifying how closely nodes (TFs, targets, or proteins) resemble each other in network topology or function.  
-- **`cal_cancer_score_TFT_dist.py`** and **`cal_cancer_score_PPI_dist.py`** — Compute cancer-related scores using **distance-based measures**, assessing the **network distance** between TF–gene or protein pairs.  
-
-Together, these scripts and modules, combined with the analytical capabilities of the Toolbox, provide a comprehensive framework for evaluating and comparing network characteristics to identify potential cancer-associated regulatory and interaction patterns.
 ## Function Overview
 
 This work utilizes the **Toolbox**, a publicly available repository that encapsulates a variety of functions for network-based analyses. Within this framework, several customized Python scripts and class modules were employed to analyze transcription factor–target (TF–T) and protein–protein interaction (PPI) data sets in the context of cancer and traditional Chinese medicine (TCM) associations.  
